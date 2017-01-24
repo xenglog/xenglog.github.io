@@ -1,8 +1,27 @@
+---
+title: 保存网页
+tags:
+- 技术
+categories:
+- Hexo
+thumbnailImagePosition: left  
+thumbnailImage: http://objakzzm4.bkt.clouddn.com/background.jpg
+autoThumbnailImage: true  
+coverImage: http://objakzzm4.bkt.clouddn.com/background.jpg
+coverMeta: in
+coverSize: partial
+---
+
+  大苏打  
+<!-- more -->
 # **思路**
 ---
 - master分支存放hexo生成的静态网页，hexo分支存放源码。
 - 修改博客时操作master分支
 - 修改主题，更换电脑时操作hexo分支
+
+![](http://objakzzm4.bkt.clouddn.com/background.jpg)
+
 
 # **构建步骤**
 ---
@@ -38,6 +57,16 @@
 
 # **更换设备**
 ---
+由于默认的.gitignore文件忽略了安装的那些文件，需要先找一个空的文件夹，依次执行
+```
+& hexo init
+& npm install
+```
+然后复制生成的node_modules文件夹
+
 `$ git clone [repertory]`
 `$ git checkout -b hexo origin/hexo`
 > 认准分支，其他的都很简单
+
+
+最后还是需要`npm install hexo-deployer-git --save`才能使用

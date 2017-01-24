@@ -1,10 +1,16 @@
 ---
 title: Hello World
 ---
+
+<!-- more -->
+这里是信息摘要 我擦 - - 居然要专门写这个才会生效我吃了辣的啊大是大红色就大喊大叔大叔大叔打算买奶粉俺什么饭南方吗那曼妮芬按摩那美素奶粉没那 
+<!-- excerpt -->
 Welcome to [Hexo](https://hexo.io/)! This is your very first post. Check [documentation](https://hexo.io/docs/) for more info. If you get any problems when using Hexo, you can find the answer in [troubleshooting](https://hexo.io/docs/troubleshooting.html) or you can ask me on [GitHub](https://github.com/hexojs/hexo/issues).
 
 ## Quick Start
 
+
+![](http://objakzzm4.bkt.clouddn.com/background.jpg)
 ### Create a new post
 
 ``` bash
