@@ -137,7 +137,7 @@ author:
     # or in `source/assets/images/` (production)
     # or you can use an external url
     # Overwritten by your gravatar image if `gravatar_email` is filled
-    picture: photo.jpg
+    picture: http://objakzzm4.bkt.clouddn.com/photo.jpg
     # Your Twitter username without the @. E.g : `tranquilpeak`
     twitter:
     # Your personal google plus profile id, not your blog or business page id.
@@ -201,7 +201,7 @@ disqus_shortname:
 # Your Duoshuo shortname
 duoshuo_shortname:
 # Your Google analystics web property ID : UA-XXXXX-X
-google_analytics_id:
+google_analytics_id: UA-91414997-1
 # Your Baidu analystics web property ID : 9505a5af654a2478f93fd6c0ae4f687d
 baidu_analytics_id:
 # Your Gravatar email. Overwrite `author.picture` everywhere in the blog

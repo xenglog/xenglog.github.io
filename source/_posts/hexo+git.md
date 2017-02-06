@@ -23,6 +23,13 @@ coverSize: partial
 ![](http://objakzzm4.bkt.clouddn.com/background.jpg)
 
 
+
+```java
+public static void main(){
+  System.out.printf("Hello World!");
+}
+```
+
 # **构建步骤**
 ---
 - 当前目录执行博客初始化操作
@@ -58,7 +65,7 @@ coverSize: partial
 # **更换设备**
 ---
 由于默认的.gitignore文件忽略了安装的那些文件，需要先找一个空的文件夹，依次执行
-```
+```java
 & hexo init
 & npm install
 ```

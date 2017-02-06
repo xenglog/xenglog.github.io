@@ -72,7 +72,7 @@ h4,
 h5,
 h6 {
   letter-spacing: -0.04em;
-  font-family: "Open Sans", sans-serif;
+  font-family: "lucida grande", "lucida sans unicode", lucida, helvetica, "Hiragino Sans GB", "Microsoft YaHei", "WenQuanYi Micro Hei", sans-serif;
   font-weight: 700;
   line-height: 1.45em;
   color: #4a4a4a; }
@@ -154,7 +154,7 @@ pre > code {
   width: 100%;
   box-sizing: border-box;
   padding: 15px;
-  font-family: Menlo;
+  font-family: "Consolas";
   border: none;
   margin: 0;
   cursor: text;
@@ -165,7 +165,7 @@ pre > code {
 code {
   font-size: 1.5rem;
   display: inline-block;
-  font-family: Menlo;
+  font-family: "Consolas";
   font-weight: 400;
   background-color: #f7f8f8;
   padding: 0 10px; }
@@ -525,7 +525,9 @@ blockquote {
 #main {
   display: block;
   min-height: 100%;
-  background: #fff;
+  background: url('http://objakzzm4.bkt.clouddn.com/background.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
   transition: transform .25s ease-in-out;
   -webkit-transition: -webkit-transform .25s ease-in-out; }
   #main.hasCover.hasCoverCaption, #main.hasCover.hasCoverMetaOut {
@@ -1459,7 +1461,7 @@ figure.highlight,
   .codeblock .code,
   .codeblock .tag {
     background-color: inherit;
-    font-family: Menlo;
+    font-family: "Consolas";
     border: none;
     padding: 0;
     margin: 0;
