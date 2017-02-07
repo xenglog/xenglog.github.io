@@ -177,7 +177,7 @@ abbr {
 blockquote {
   border-left: 3px solid #5d686f;
   padding: 0 15px;
-  font-style: italic;
+  font-style: normal;
   margin: 1.5em 0 0; }
   blockquote cite:before {
     content: ' — ';
@@ -233,6 +233,7 @@ blockquote {
     top: -1000px;
     display: block;
     background: white;
+
     max-width: 400px;
     margin: 15px auto;
     border-radius: 3px;
@@ -2603,7 +2604,8 @@ pre > code {
   color: #333; }
 
 code {
-  background-color: #f7f8f8; }
+  color: #B66060;
+  background-color: #C3E5E2; }
 
 .codeblock--tabbed figcaption .tab.active {
   background: #349ef3;
